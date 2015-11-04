@@ -109,14 +109,22 @@
   <note>
     <para>
       Custom Keyboard shortcuts are stored in one of Gimp's hidden
-      directory (<filename
+      directories (<filename
       class="directory">/home/[username]/.gimp-2.8/menurc</filename>)
-      under Linux, and
+      under Linux,
       <filename class="directory"
       role="html">C:\Documents and Settings\[Username]\.gimp-2.8\menurc</filename>
       <filename class="directory"
       role="tex">C:\\Documents and Settings\\[Username]\\.gimp-2.8\\menurc</filename>
-      under Windows XP.  It is a simple text file that you can transport from
+      under Windows XP, and
+      <filename class="directory"
+      role="html">C:\Program Files\GIMP 2\etc\gimp\2.0\menurc</filename>
+      <filename class="directory"
+      role="tex">C:\\Program Files\\GIMP 2\\etc\\gimp\\2.0\\menurc</filename> under Windows 7 and newer. However, this location may change if Gimp is installed after having already installed Git Bash or Cygwin. In this case,they will appear in
+      <filename class="directory"
+      role="html">C:\Program Files\Git\.gimp-[version]\menurc</filename>
+      <filename class="directory"
+      role="tex">C:\\Program Files\\Git\\.gimp-[version]\\menurc</filename> and will be read from the same location. It is a simple text file that you can transport from
       one computer to another.
     </para>
   </note>
